@@ -2,7 +2,7 @@
 <head>
     <title>Assignment 2</title>
     <link rel = "stylesheet" href = "style1.css">
-    
+    <script src="NewAssignment.js"></script>
     </head>
     
     <body>
@@ -14,29 +14,35 @@
                 <a href="NewAssignmentInput.html">Add a ToDo</a>
               </div>
             <div class = "form-box">
+                <form action="" id="registerForm">
                 <h1> Register </h1>
-                <form>
+        
                 <div class = "input-form">
                     <div class="register">
                         <input type="name"
                                class="input"
+                               id = "name" autocomplete="off"
                                placeholder="Enter Name">
+                            
                 </div>
                 <div class="register">
                     <input type="email"
                            class="input"
-                           placeholder="Enter Email">
+                           id = "email" autocomplete="off"
+                           placeholder="Enter Email"  required>
             </div>
             <div class="register">
                 <input type="password"
                        class="input"
+                       id = "password" autocomplete="off"
                        placeholder="passsword">
             </div>
          </div>
          <div class="btn-field">
-            <button class = "id" type="button"> Register</button>
+            <button type="submit" > Register</button>
          </div>
         </form>
+        
         </div>
     </body>
 </html>

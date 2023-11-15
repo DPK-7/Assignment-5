@@ -1,38 +1,38 @@
 <!DOCTYPE html>
+
 <head>
     <title>Log In</title>
-    <link rel = "stylesheet" href = "style2.css">
-    
-    </head>
-    <body>
-        <div class = "container">
-            <div class="topnav">
-                <a href="NewAssignmentLogin.html">Login</a>
-                <a href="NewAssignment.html">Register</a>
-                <a href="NewAssignmentInput.html">Add a ToDo</a>
-              </div>
-            
-            <div class = "form-box">
-                <h1> Login </h1>
-                <form>
-                    <div class = "input-form">
-                        <div class="login">
-                            <input type="email"
-                               class="input"
-                               placeholder="Enter Email">
-                        </div>
-                    </div>
-                <div class="login">
-                     <input type="password"
-                       class="input"
-                       placeholder="passsword">
-                </div>
-                <p >Forgot password <a href= '#'>Click Here</a></p>
-                
-                <div class="btn-field">
-                <button class = "id" type="button"> Log In</button>
-            </div>
-        </form>
+    <link rel="stylesheet" href="style2.css">
+    <script src="NewAssignmentLogin.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="topnav">
+            <a href="NewAssignmentLogin.html">Login</a>
+            <a href="NewAssignment.html">Register</a>
+            <a href="NewAssignmentInput.html">Add a ToDo</a>
         </div>
-    </body>
+
+        <div class="form-box">
+            <form action="" id="loginform">
+                <h1> Login </h1>
+
+                <div class="input-form">
+                    <div class="login">
+                        <input type="email" id="email" class="input" placeholder="Enter Email">
+                    </div>
+                </div>
+                <div class="login">
+                    <input type="password" id="password" class="input" placeholder="passsword">
+                </div>
+                <p>Forgot password <a href='#'>Click Here</a></p>
+
+                <div class="btn-field">
+                    <button type="submit"> Submit</button>
+                </div>
+            </form>
+        </div>
+</body>
+
 </html>

@@ -1,31 +1,32 @@
 <!DOCTYPE html>
+
 <head>
     <title> Input </title>
-    <link rel = "stylesheet" href = "style3.css">
-    
-    </head>
-    <body>
-        <div class = "container">
-            <div class="topnav">
-                <a href="NewAssignmentLogin.html">Login</a>
-                <a href="NewAssignment.html">Register</a>
-                <a href="NewAssignmentInput.html">Add a ToDo</a>
-              </div>
-            
-            <div class = "form-box">
-                <h1> Input </h1>
-                <form>
-                    <div class = "input-form">
-                        <div class="inputform">
-                            <input type="textarea"
-                               class="input"
-                               placeholder="Enter Text">
-                        </div>
-                    </div>
-                    <div class="btn-field">
-                <button class = "id" type="button"> Submit</button>
-            </div>
-        </form>
+    <link rel="stylesheet" href="style3.css">
+    <script src="NewAssignmentInput.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="topnav">
+            <a href="NewAssignmentLogin.html">Login</a>
+            <a href="NewAssignment.html">Register</a>
+            <a href="NewAssignmentInput.html">Add a ToDo</a>
         </div>
-    </body>
+
+        <div class="form-box">
+            <form action="" id="inputForm">
+                <h1> Input </h1>
+                <div class="input-form">
+                    <div class="inputform">
+                        <input type="textarea" id="todo" class="input" placeholder="Enter Text" autocomplete="off">
+                    </div>
+                </div>
+                <div class="btn-field">
+                    <button type="submit"> Submit</button>
+                </div>
+            </form>
+        </div>
+</body>
+
 </html>
