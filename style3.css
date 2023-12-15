@@ -95,3 +95,14 @@
   background-color: #04AA6D;
   color: white;
 }
+
+.listItem{
+  color: #000;
+}
+
+.todoList{
+  background: #ccc;
+}
+.list{
+  background: red;
+}
